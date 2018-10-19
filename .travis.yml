@@ -9,4 +9,4 @@ deploy:
    provider: pages
    github-token: $blank
    skip_cleanup: true
-   local-dir: out
+   local-dir: ./out
