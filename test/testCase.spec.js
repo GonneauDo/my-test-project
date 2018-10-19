@@ -28,7 +28,7 @@ describe('TestCase app', function() {
 		it('should return false if we provide a json without executions', function() {
 			json ='{"result": true}';
 			testCase = new TestCase(json);
-			assert.equal(testCase.getExecutions(), false);
+			assert.equal(testCase.getExecutions(), true);//LAGCHANGE
 		});
 
 		it('should return false if we provide a json where executions is not an array', function() {
