@@ -2,7 +2,8 @@
   "curly": true,
   "eqeqeq": true,
   "nocomma": true,
-  "strict": "global",
+  "strict": true,
+  "esversion": 6,
   "globals": {
     "require": false,
     "module": false,
