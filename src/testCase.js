@@ -21,7 +21,7 @@ class testCase {
 		if (undefined === obj.executions){
 			return false;
 		}
-		if (!obj.executions.isArray()){
+		if (!Array.isArray(obj.executions)){
 			return false;
 		}
 		return obj.executions;
