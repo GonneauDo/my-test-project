@@ -5,5 +5,5 @@ script:
    - node_modules/.bin/jshint src
 deploy:
    provider: pages
-   github-token: $GITHUB_TOKEN
+   github-token: $blank
    skip_cleanup: true
